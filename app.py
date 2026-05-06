@@ -104,7 +104,7 @@ html, body { font-family: 'DM Sans', sans-serif !important; background-color: #0
 """, unsafe_allow_html=True)
 
 MODEL_PATH   = 'best_model_v4.pth'
-GROQ_API_KEY = 'api_key'
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 IMG_SIZE     = 384
 
 CLASS_NAMES = [
